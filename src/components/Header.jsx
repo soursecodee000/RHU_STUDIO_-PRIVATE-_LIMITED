@@ -15,7 +15,7 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navItems = ["home", "about", "skills", "services", "projects", "contact"];
+  const navItems = ["home", "about", "skills", "services", "contact"];
 
   const handleLogoClick = () => {
     if (location.pathname !== "/") {
