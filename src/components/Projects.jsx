@@ -70,7 +70,7 @@ export default function Projects() {
                 {project.desc}
               </p>
               <a
-                href="https://github.com/sqsoft19-web"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-purple-400 via-cyan-400 to-blue-500 text-black px-4 py-2 rounded-full font-semibold mt-2 hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition"
