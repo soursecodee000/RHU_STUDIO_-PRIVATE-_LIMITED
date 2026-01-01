@@ -44,36 +44,6 @@ export default function Home() {
           specializing in 2D and 3D Unity games. We craft immersive experiences
           for players around the world.
         </p>
-
-        {/* SOCIAL LINKS */}
-        <div className="flex justify-center gap-3 sm:gap-4 mb-8 animate-fadeIn delay-800">
-          <a
-            href="https://www.facebook.com/share/1EfAnyvHNh/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-purple-400 p-2 sm:p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
-          >
-            <FaFacebookF />
-          </a>
-          <a
-            href="https://github.com/sqsoft19-web"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-purple-400 p-2 sm:p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/sohail-ahmad-91062a34b/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-purple-400 p-2 sm:p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
-          >
-            <FaLinkedinIn />
-          </a>
-        </div>
-
-       {/* CTA BUTTON */}
 <a
   href="#about"
   className="inline-block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 text-black px-6 sm:px-10 py-3 sm:py-4 rounded-full font-semibold hover:shadow-[0_0_25px_rgba(0,255,255,0.8)] transition-transform transform hover:scale-105 animate-fadeIn delay-1000 text-sm sm:text-base md:text-lg"
