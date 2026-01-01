@@ -50,7 +50,6 @@ export default function Footer() {
         </div>
         {/* Social Links */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <h3 className="text-2xl font-semibold mb-4 text-purple-400">Follow Us</h3>
 
           <div className="flex gap-4">        
           
