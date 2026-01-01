@@ -78,43 +78,6 @@ export default function Footer() {
             )}
           </div>
         </div>
-
-        {/* Social Links */}
-        <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <h3 className="text-2xl font-semibold mb-4 text-purple-400">Follow Us</h3>
-
-          <div className="flex gap-4">
-            <a
-              href="https://www.facebook.com/share/1EfAnyvHNh/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-purple-400 p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
-            >
-              <FaFacebookF />
-            </a>
-
-            <a
-              href="https://github.com/sqsoft19-web"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-purple-400 p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
-            >
-              <FaGithub />
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/sohail-ahmad-91062a34b/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-purple-400 p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
-            >
-              <FaLinkedinIn />
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Bottom */}
       <div className="mt-12 max-w-7xl mx-auto text-center text-gray-400 text-sm border-t-2 border-cyan-400 pt-4">
         © {new Date().getFullYear()} RHU STUDIO (PRIVATE) LIMITED. All rights reserved.
       </div>
