@@ -41,7 +41,7 @@ export default function Footer() {
               alt="CipherFlux Games Logo"
             />
             <span className="text-xl sm:text-2xl font-semibold hover:text-cyan-400 transition">
-              CipherFlux Games
+              RHU STUDIO (PRIVATE) LIMITED
             </span>
           </button>
           <p className="text-gray-300 max-w-xs">
@@ -116,7 +116,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="mt-12 max-w-7xl mx-auto text-center text-gray-400 text-sm border-t-2 border-cyan-400 pt-4">
-        © {new Date().getFullYear()} CipherFlux Games. All rights reserved.
+        © {new Date().getFullYear()} RHU STUDIO (PRIVATE) LIMITED. All rights reserved.
       </div>
 
       {/* Animations */}
