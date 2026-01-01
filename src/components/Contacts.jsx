@@ -23,10 +23,10 @@ export default function Contact() {
           </p>
 
         <p className="mb-2 sm:mb-3 text-sm sm:text-base">
-  📧 <a href="mailto:sqsoft19@gmail.com" className="text-cyan-400 hover:underline">sqsoft19@gmail.com</a>
+  📧 <a href="Rhutech7@gmail.com" className="text-cyan-400 hover:underline">Rhutech7@gmail.com</a>
 </p>
 <p className="mb-4 sm:mb-6 text-sm sm:text-base">
-  📞 <a href="tel:+923070246857" className="text-cyan-400 hover:underline">+92 307 0246857</a>
+  📞 <a href="tel:+92 308 0143643" className="text-cyan-400 hover:underline">+92 307 0246857</a>
 </p>
 
 
