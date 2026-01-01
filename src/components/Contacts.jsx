@@ -1,5 +1,3 @@
-import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
-
 export default function Contact() {
   return (
     <section
@@ -17,49 +15,31 @@ export default function Contact() {
       <div className="grid md:grid-cols-2 gap-12 max-w-7xl mx-auto">
         {/* Contact Info */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <h2 className="text-2xl sm:text-3xl mb-4 text-purple-400 font-semibold">Let's Work Together</h2>
+          <h2 className="text-2xl sm:text-3xl mb-4 text-purple-400 font-semibold">
+            Let's Work Together
+          </h2>
           <p className="text-gray-300 mb-6 text-sm sm:text-base">
             Reach out for collaborations, game projects, or support.
           </p>
 
-        <p className="mb-2 sm:mb-3 text-sm sm:text-base">
-  📧 <a href="Rhutech7@gmail.com" className="text-cyan-400 hover:underline">Rhutech7@gmail.com</a>
-</p>
-<p className="mb-4 sm:mb-6 text-sm sm:text-base">
-  📞 <a href="tel:+92 308 0143643" className="text-cyan-400 hover:underline">+92 307 0246857</a>
-</p>
-
-
-         <div className="flex justify-center gap-3 sm:gap-4 mb-8 animate-fadeIn delay-800">
-                 <div className="flex justify-center md:justify-start gap-3 sm:gap-4 mb-8 animate-fadeIn delay-800">
-</div>
+          <p className="mb-2 sm:mb-3 text-sm sm:text-base">
+            📧{" "}
             <a
-    href="https://www.facebook.com/share/1EfAnyvHNh/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="border cursor-pointer border-purple-400 p-2 sm:p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
-  >
-    <FaFacebookF />
-  </a>
-  <a
-    href="https://github.com/sqsoft19-web"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="border cursor-pointer border-purple-400 p-2 sm:p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
-  >
-    <FaGithub />
-  </a>
-  <a
-    href="https://www.linkedin.com/in/sohail-ahmad-91062a34b/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="border cursor-pointer border-purple-400 p-2 sm:p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
-  >
-    <FaLinkedinIn />
-  </a>
-</div>
-
-                </div>
+              href="mailto:Rhutech7@gmail.com"
+              className="text-cyan-400 hover:underline"
+            >
+              Rhutech7@gmail.com
+            </a>
+          </p>
+          <p className="mb-4 sm:mb-6 text-sm sm:text-base">
+            📞{" "}
+            <a
+              href="tel:+923080143643"
+              className="text-cyan-400 hover:underline"
+            >
+              +92 308 0143643
+            </a>
+          </p>
         </div>
 
         {/* Contact Form */}
