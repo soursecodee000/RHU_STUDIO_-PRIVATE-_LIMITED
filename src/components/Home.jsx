@@ -29,7 +29,7 @@ export default function Home() {
 
         {/* MAIN HEADING */}
         <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-playfair font-bold mb-4 animate-fadeIn delay-200 text-gradient leading-tight">
-          CipherFlux Games
+          RHU STUDIO (PRIVATE) LIMITED
         </h1>
 
         {/* SUBHEADING */}
@@ -40,7 +40,7 @@ export default function Home() {
 
         {/* DESCRIPTION */}
         <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-8 text-gray-300 font-bartle animate-fadeIn delay-600 leading-relaxed px-2 sm:px-0">
-          CipherFlux Games is a professional game development studio
+          RHU STUDIO (PRIVATE) LIMITED is a professional game development studio
           specializing in 2D and 3D Unity games. We craft immersive experiences
           for players around the world.
         </p>
