@@ -44,7 +44,7 @@ export default function Header() {
             src="/images/logo3.png"
             className="h-10 w-10 sm:h-15 sm:w-15 object-contain"
           />
-          CipherFlux Games
+          RHU STUDIO (PRIVATE) LIMITED
         </button>
 
         {/* Desktop Menu */}
