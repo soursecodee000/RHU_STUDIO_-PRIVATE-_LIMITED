@@ -13,7 +13,7 @@ export default function About() {
             About <span className="text-cyan-400">Us</span>
           </h2>
           <p className="text-gray-300 mt-2 sm:mt-4 text-xs sm:text-sm md:text-base max-w-2xl mx-auto">
-            At CipherFlux Games, we craft unforgettable 2D & 3D gaming experiences, blending innovation, creativity, and technical mastery.
+            At RHU STUDIO (PRIVATE) LIMITED, we craft unforgettable 2D & 3D gaming experiences, blending innovation, creativity, and technical mastery.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function About() {
             </h4>
 
             <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-300 animate-fadeIn delay-400 leading-relaxed">
-             At CipherFlux Games, we are a professional game development studio dedicated to delivering high-quality 2D and 3D Unity games and comprehensive software solutions. Our team brings expertise in Python, Java, MATLAB, C, C++, and Django, allowing us to develop customized, robust, and efficient solutions for a wide variety of projects. We combine creativity, technical proficiency, and innovative problem-solving to produce engaging and immersive gaming experiences while optimizing workflows and enhancing performance across all software applications.
+             At RHU STUDIO (PRIVATE) LIMITED, we are a professional game development studio dedicated to delivering high-quality 2D and 3D Unity games and comprehensive software solutions. Our team brings expertise in Python, Java, MATLAB, C, C++, and Django, allowing us to develop customized, robust, and efficient solutions for a wide variety of projects. We combine creativity, technical proficiency, and innovative problem-solving to produce engaging and immersive gaming experiences while optimizing workflows and enhancing performance across all software applications.
             </p>
 
             <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-300 animate-fadeIn delay-600 leading-relaxed">
