@@ -84,29 +84,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-
-      {/* Animations */}
-      <style jsx>{`
-        @keyframes float {
-          0% { transform: translateY(0px); }
-          50% { transform: translateY(-12px); }
-          100% { transform: translateY(0px); }
-        }
-        @keyframes float-slow {
-          0% { transform: translateY(0px); }
-          50% { transform: translateY(-20px); }
-          100% { transform: translateY(0px); }
-        }
-        .animate-float { animation: float 4s ease-in-out infinite; }
-        .animate-float-slow { animation: float-slow 6s ease-in-out infinite; }
-
-        /* Gradient text */
-        .text-gradient {
-          background: linear-gradient(90deg, #913DC2, #5CCCC6, #0286df);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-      `}</style>
     </section>
   );
 }
