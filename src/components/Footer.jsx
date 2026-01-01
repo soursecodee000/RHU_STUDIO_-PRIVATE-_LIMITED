@@ -1,3 +1,4 @@
+import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { useLocation, useNavigate } from "react-router-dom";
 
