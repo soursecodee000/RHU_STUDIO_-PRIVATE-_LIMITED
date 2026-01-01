@@ -33,6 +33,31 @@ export default function Contact() {
          <div className="flex justify-center gap-3 sm:gap-4 mb-8 animate-fadeIn delay-800">
                  <div className="flex justify-center md:justify-start gap-3 sm:gap-4 mb-8 animate-fadeIn delay-800">
 </div>
+            <a
+    href="https://www.facebook.com/share/1EfAnyvHNh/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="border cursor-pointer border-purple-400 p-2 sm:p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
+  >
+    <FaFacebookF />
+  </a>
+  <a
+    href="https://github.com/sqsoft19-web"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="border cursor-pointer border-purple-400 p-2 sm:p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
+  >
+    <FaGithub />
+  </a>
+  <a
+    href="https://www.linkedin.com/in/sohail-ahmad-91062a34b/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="border cursor-pointer border-purple-400 p-2 sm:p-3 rounded-full hover:bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 hover:text-black transition"
+  >
+    <FaLinkedinIn />
+  </a>
+</div>
 
                 </div>
         </div>
