@@ -1,18 +1,9 @@
-import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 import { useLocation, useNavigate } from "react-router-dom";
 
 export default function Footer() {
   const location = useLocation();
   const navigate = useNavigate();
-
-  const navItems = ["home", "about", "skills", "services", "projects", "contact"];
-
-  const handleNavClick = (item) => {
-    if (location.pathname !== "/") {
-      navigate("/", { state: { scrollTo: item } });
-    }
-  };
 
   const handleLogoClick = () => {
     if (location.pathname !== "/") {
@@ -34,7 +25,10 @@ export default function Footer() {
 
         {/* Logo / About */}
         <div className="flex flex-col items-center md:items-start gap-4 text-center md:text-left">
-          <button onClick={handleLogoClick} className="flex flex-col items-center md:items-start gap-3">
+          <button
+            onClick={handleLogoClick}
+            className="flex flex-col items-center md:items-start gap-3"
+          >
             <img
               src="/images/logo3.png"
               className="h-20 w-20 sm:h-24 sm:w-24 object-contain"
@@ -44,16 +38,13 @@ export default function Footer() {
               RHU STUDIO (PRIVATE) LIMITED
             </span>
           </button>
+
           <p className="text-gray-300 max-w-xs">
             Professional game studio specializing in 2D & 3D Unity games. We create immersive experiences for players worldwide.
           </p>
         </div>
-        {/* Social Links */}
-        <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <div className="flex gap-4">        
-          </div>
-        </div>
       </div>
+
       <style jsx>{`
         @keyframes float-slow {
           0% { transform: translateY(0px); }
