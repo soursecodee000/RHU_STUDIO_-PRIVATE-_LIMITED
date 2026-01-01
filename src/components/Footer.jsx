@@ -50,16 +50,10 @@ export default function Footer() {
         </div>
         {/* Social Links */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-
           <div className="flex gap-4">        
-          
           </div>
         </div>
       </div>
-
-      {/* Bottom */}
-
-      {/* Animations */}
       <style jsx>{`
         @keyframes float-slow {
           0% { transform: translateY(0px); }
