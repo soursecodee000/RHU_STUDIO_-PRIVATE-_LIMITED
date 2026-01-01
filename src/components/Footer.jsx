@@ -49,39 +49,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Quick Links */}
-        <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <h3 className="text-2xl font-semibold mb-4 text-purple-400">Quick Links</h3>
-
-          <div className="flex flex-col gap-2">
-            {navItems.map((item) =>
-              location.pathname === "/" ? (
-                <ScrollLink
-                  key={item}
-                  to={item}
-                  smooth={true}
-                  duration={500}
-                  offset={-70}
-                  className="hover:text-cyan-400 transition capitalize cursor-pointer"
-                >
-                  {item}
-                </ScrollLink>
-              ) : (
-                <button
-                  key={item}
-                  onClick={() => handleNavClick(item)}
-                  className="hover:text-cyan-400 transition capitalize cursor-pointer text-left"
-                >
-                  {item}
-                </button>
-              )
-            )}
-          </div>
-        </div>
-      <div className="mt-12 max-w-7xl mx-auto text-center text-gray-400 text-sm border-t-2 border-cyan-400 pt-4">
-        © {new Date().getFullYear()} RHU STUDIO (PRIVATE) LIMITED. All rights reserved.
-      </div>
-
       {/* Animations */}
       <style jsx>{`
         @keyframes float-slow {
