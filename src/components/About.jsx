@@ -36,7 +36,7 @@ export default function About() {
           </h4>
 
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 animate-fadeIn delay-400 leading-relaxed">
-            At CipherFlux Games, we combine creativity, technical expertise, and innovation
+            At RHU STUDIO (PRIVATE) LIMITED, we combine creativity, technical expertise, and innovation
             to deliver immersive 2D and 3D gaming experiences and cutting-edge software
             solutions. Our team works passionately to set new industry standards.
           </p>
